@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/dockerode": "^3.3.16",
     "@types/express": "^4.17.12",
     "@types/jest": "^29.5.0",
     "@types/node": "18.15.11",
@@ -24,8 +25,7 @@
     "supertest": "^6.1.4",
     "ts-jest": "^29.1.0",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.0.4",
-    "@types/dockerode": "^3.3.16"
+    "typescript": "^5.0.4"
   },
   "dependencies": {
     "@prisma/client": "*",
@@ -40,6 +40,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
     "express": "^4.17.1",
+    "passport-hash": "^0.6.1",
     "passport-jwt": "^4.0.1",
     "prettier": "^2.2.1",
     "prisma": "^4.12.0"
