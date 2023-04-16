@@ -9,6 +9,7 @@
     "build": "tsc",
     "prisma:init": "prisma init",
     "prisma:migrate": "prisma migrate dev",
+    "prisma:generate": "prisma generate",
     "test": "jest"
   },
   "keywords": [],
