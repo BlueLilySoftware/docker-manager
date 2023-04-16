@@ -1,3 +1,5 @@
-class UserService {}
+class UserService {
+  createNewUser() {}
+}
 
 export default UserService;
