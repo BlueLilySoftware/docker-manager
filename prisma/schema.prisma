@@ -13,3 +13,10 @@ model User {
   password  String   @db.VarChar(300)
   createdAt DateTime @default(dbgenerated("now()")) @db.Timestamptz()
 }
+
+model Container {
+  id         Int      @id @unique @default(autoincrement())
+  userid     Int
+  identifier String   @unique @db.VarChar(255)
+  createdAt  DateTime @default(dbgenerated("now()")) @db.Timestamptz()
+}
